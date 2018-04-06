@@ -12,7 +12,7 @@ namespace WcfServiceLibrary2
     {
         public string GetData(int value)
         {
-            return string.Format("You entered: {0}", value);
+            return string.Format("You -----entered: {0}", value);
         }
 
         public double PromedioPracticas(int p1, int p2, int p3, int p4)

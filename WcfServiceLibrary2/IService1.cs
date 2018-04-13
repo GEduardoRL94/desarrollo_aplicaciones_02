@@ -13,7 +13,7 @@ namespace WcfServiceLibrary2
     {
         [OperationContract]
         string GetData(int value);
-
+        //TEST
         [OperationContract]
         double PromedioPracticas(int p1, int p2, int p3, int p4);
 

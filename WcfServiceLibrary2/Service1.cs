@@ -17,7 +17,13 @@ namespace WcfServiceLibrary2
 
         public string GetData2(int value)
         {
-            return string.Format("You enteredddd: {0}", value);
+            string file = "dd";
+            return string.Format("You enteredddd: {0}", file);
+        }
+        public string GetData3(int value)
+        {
+            string texto = "test";
+            return string.Format("You enteredddd: {0}", texto);
         }
 
         public double PromedioPracticas(int p1, int p2, int p3, int p4)
